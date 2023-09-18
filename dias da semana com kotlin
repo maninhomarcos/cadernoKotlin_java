@@ -15,3 +15,5 @@ fun main() {
 
     println("O número $num representa: $result")
 }
+
+link funcional: https://replit.com/@MarcosAndre35/ifelse#main.kt
