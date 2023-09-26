@@ -1,0 +1,57 @@
+//criação da minha função olá mundo
+fun olaMundo(){
+  println("olá Mundo")
+}
+//função passando parametros
+fun bemV(nome: String) {
+  println("bem Vindo "+ nome)
+}
+//função com varios paramentros
+fun idade(nome:String,idade:Int){
+  println(nome + " tem "+idade+" anos ")
+  
+}
+fun soma(n1:Int,n2:Int){
+  println(n1+n2)
+  
+}
+//passando parametro e obtendo retorno
+fun incremento(x: Int): Int {
+  return (x + 1)
+}
+
+//soma com retorno
+fun soma2(num1:Int,num2:Int):Int{
+  return (num1+num2)
+  
+}
+
+//divide()dois numeros reais
+fun dividir(numero1:Double,numero2:Double): Double{
+  return (numero1/numero2)
+}
+
+
+
+//aqui a função principal do programa kotlin
+fun main(){
+  olaMundo()
+  olaMundo()
+  olaMundo()
+  //chamar bemV() com parametro
+  bemV("Marcos")
+  //chamar a função idade()
+  idade("Marcos",17)
+  //chamar função soma()
+  soma(2,2)
+  soma(5,7)
+  //criar variavel para armazenar o retorno
+  var resultado=incremento(40)
+  println(resultado)
+  //soma com retorno
+  var result=soma2(20,30)
+  println(result)
+  //resultado divisão
+  var divresultado=dividir(100.0,2.0)
+  println (divresultado)
+}
